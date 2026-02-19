@@ -1,0 +1,575 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <!-- ===== Meta ===== -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="مبادرة المنصة الوطنية الموحدة للمحكّمين الأكاديميين والترقيات العلمية – تصوّر لبيئة رقمية مركزية لحوكمة التحكيم العلمي في الجامعات السعودية.">
+    <meta name="keywords" content="محكمين أكاديميين, ترقيات علمية, جامعة حفر الباطن, منصة وطنية, تحكيم علمي">
+    <title>مبادرة المنصة الوطنية الموحدة للمحكّمين الأكاديميين</title>
+
+    <!-- ===== Favicon ===== -->
+    <link rel="icon" href="assets/logo.png" type="image/png">
+
+    <!-- ===== Google Fonts — Cairo ===== -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;600;700;800;900&display=swap" rel="stylesheet">
+
+    <!-- ===== Bootstrap 5 RTL ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+
+    <!-- ===== Bootstrap Icons ===== -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+
+    <!-- ===== Custom Stylesheet ===== -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <!-- ============================================================
+         NAVBAR — القائمة العلوية
+         ============================================================ -->
+    <nav id="mainNavbar" class="navbar navbar-expand-lg fixed-top">
+        <div class="container">
+            <!-- Logo -->
+            <a class="navbar-brand" href="#">
+                <img src="assets/252.png" alt="جامعة حفر الباطن">
+            </a>
+
+            <!-- Mobile Toggle -->
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarContent"
+                aria-controls="navbarContent" aria-expanded="false" aria-label="تبديل القائمة">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Nav Links -->
+            <div class="collapse navbar-collapse" id="navbarContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#hero">الرئيسة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#problem">عن المبادرة</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#features">الخدمات</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#how-it-works">رحلة التحكيم</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#tech-specs">البنية التقنية</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#compliance">الامتثال والتوافق</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <!-- ============================================================
+         HERO SECTION — القسم الرئيسي
+         ============================================================ -->
+    <section id="hero">
+        <div class="hero-decoration"></div>
+        <div class="container hero-content text-center">
+            <h1 class="hero-title animate-on-scroll">
+                مبادرة المنصة الوطنية الموحدة
+                <span>للمحكّمين الأكاديميين</span>
+            </h1>
+            <p class="hero-subtitle animate-on-scroll delay-1">
+                تصوّر لبيئة رقمية مركزية لتوحيد إجراءات التحكيم العلمي، ضمان الحوكمة،
+                وتسريع الترقيات الأكاديمية في الجامعات السعودية.
+            </p>
+            <div class="hero-buttons d-flex justify-content-center gap-3 flex-wrap animate-on-scroll delay-2">
+                <a href="#problem" class="btn btn-hero-outline">
+                    <i class="bi bi-info-circle me-1"></i>
+                    اقرأ المزيد
+                </a>
+                <a href="#roadmap" class="btn btn-hero-primary">
+                    <i class="bi bi-map me-1"></i>
+                    خارطة الطريق
+                </a>
+            </div>
+        </div>
+
+        <!-- Scroll Indicator -->
+        <div class="scroll-indicator">
+            <a href="#problem"><i class="bi bi-chevron-double-down"></i></a>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         PROBLEM — لماذا هذه المبادرة؟
+         ============================================================ -->
+    <section id="problem">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">لماذا هذه المبادرة؟</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    تحديات الوضع الحالي التي تواجه منظومة التحكيم الأكاديمي والترقيات العلمية
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Card 1 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="challenge-card animate-on-scroll delay-1">
+                        <div class="challenge-icon">
+                            <i class="bi bi-database-x"></i>
+                        </div>
+                        <h4>غياب قاعدة بيانات مركزية</h4>
+                        <p>عدم وجود قاعدة بيانات وطنية موحدة تجمع بيانات المحكّمين الأكاديميين وتخصصاتهم ومؤهلاتهم
+                            العلمية.</p>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="challenge-card animate-on-scroll delay-2">
+                        <div class="challenge-icon">
+                            <i class="bi bi-hourglass-split"></i>
+                        </div>
+                        <h4>صعوبة الوصول وتأخر الإجراءات</h4>
+                        <p>صعوبة التواصل مع المحكّمين المناسبين وتأخر كبير في إنجاز إجراءات الترقيات العلمية بين
+                            الجامعات.</p>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="challenge-card animate-on-scroll delay-3">
+                        <div class="challenge-icon">
+                            <i class="bi bi-arrow-repeat"></i>
+                        </div>
+                        <h4>تكرار الجهود وغياب الحوكمة</h4>
+                        <p>ازدواجية العمل بين الجامعات وغياب معايير حوكمة موحدة لإدارة بيانات المحكّمين وعمليات التحكيم.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         SOLUTION — الحل والرؤية
+         ============================================================ -->
+    <section id="solution">
+        <div class="container text-center">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">رؤيتنا: وسيط تقني وتنظيمي ذكي</h2>
+            </div>
+
+            <p class="solution-text animate-on-scroll delay-1">
+                إنشاء نقطة مرجعية وطنية موحدة لإدارة المحكّمين، توفر واجهات برمجية (APIs)
+                للربط المباشر مع الجامعات، وتضمن حوكمة كاملة للعمليات لضمان العدالة والشفافية.
+            </p>
+
+            <!-- Solution Pillars -->
+            <div class="solution-features animate-on-scroll delay-2">
+                <div class="solution-feature-item">
+                    <i class="bi bi-link-45deg"></i>
+                    <span>ربط مباشر مع الجامعات</span>
+                </div>
+                <div class="solution-feature-item">
+                    <i class="bi bi-shield-check"></i>
+                    <span>حوكمة كاملة</span>
+                </div>
+                <div class="solution-feature-item">
+                    <i class="bi bi-graph-up-arrow"></i>
+                    <span>تسريع الإجراءات</span>
+                </div>
+                <div class="solution-feature-item">
+                    <i class="bi bi-people"></i>
+                    <span>عدالة وشفافية</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         HOW IT WORKS — كيف تعمل المنصة (Timeline)
+         ============================================================ -->
+    <section id="how-it-works">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">كيف تعمل المنصة؟</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    رحلة التحكيم الأكاديمي من البداية حتى التوثيق
+                </p>
+            </div>
+
+            <div class="timeline">
+                <!-- Step 1 -->
+                <div class="timeline-item animate-on-scroll delay-1">
+                    <div class="timeline-dot">١</div>
+                    <div class="timeline-content">
+                        <h4><i class="bi bi-person-badge me-2"></i>التسجيل والاعتماد</h4>
+                        <p>عضو هيئة التدريس ينشئ حساباً ويتم التحقق من بياناته ورتبته العلمية وتخصصه الأكاديمي لضمان دقة
+                            المعلومات.</p>
+                    </div>
+                </div>
+
+                <!-- Step 2 -->
+                <div class="timeline-item animate-on-scroll delay-2">
+                    <div class="timeline-dot">٢</div>
+                    <div class="timeline-content">
+                        <h4><i class="bi bi-plug me-2"></i>التكامل الرقمي</h4>
+                        <p>ترسل الجامعة طلب التحكيم آلياً عبر واجهات برمجية (APIs) آمنة ومشفّرة مرتبطة بالمنصة مباشرة.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Step 3 -->
+                <div class="timeline-item animate-on-scroll delay-3">
+                    <div class="timeline-dot">٣</div>
+                    <div class="timeline-content">
+                        <h4><i class="bi bi-kanban me-2"></i>إدارة التحكيم</h4>
+                        <p>اختيار ذكي للمحكّمين بناءً على التخصص والخبرة، مع إدارة شاملة للمراسلات والتقارير داخل بيئة
+                            المنصة الآمنة.</p>
+                    </div>
+                </div>
+
+                <!-- Step 4 -->
+                <div class="timeline-item animate-on-scroll delay-4">
+                    <div class="timeline-dot">٤</div>
+                    <div class="timeline-content">
+                        <h4><i class="bi bi-check-circle me-2"></i>الإنجاز والتوثيق</h4>
+                        <p>إعادة النتائج لنظام الجامعة وتحديث سجل المحكّم وتوثيق كامل العملية لضمان الشفافية والمرجعية.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FEATURES — المميزات (3 أعمدة)
+         ============================================================ -->
+    <section id="features">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">مميزات المنصة</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    قيمة مضافة لجميع الأطراف المعنية في منظومة التحكيم الأكاديمي
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- For Universities -->
+                <div class="col-lg-4">
+                    <div class="feature-card animate-on-scroll delay-1">
+                        <div class="feature-icon">
+                            <i class="bi bi-building"></i>
+                        </div>
+                        <h4>للجامعات</h4>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check2-circle"></i>تسريع إجراءات الترقيات العلمية</li>
+                            <li><i class="bi bi-check2-circle"></i>تقليل الجهد الإداري والعبء التشغيلي</li>
+                            <li><i class="bi bi-check2-circle"></i>ضمان عدالة اختيار المحكّمين</li>
+                            <li><i class="bi bi-check2-circle"></i>تقارير ذكية وإحصاءات فورية</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- For Reviewers -->
+                <div class="col-lg-4">
+                    <div class="feature-card animate-on-scroll delay-2">
+                        <div class="feature-icon">
+                            <i class="bi bi-person-check"></i>
+                        </div>
+                        <h4>للمحكّمين</h4>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check2-circle"></i>قناة موحدة ورسمية معتمدة</li>
+                            <li><i class="bi bi-check2-circle"></i>سجل موثق لجميع المشاركات</li>
+                            <li><i class="bi bi-check2-circle"></i>حفظ الحقوق والملكية الفكرية</li>
+                            <li><i class="bi bi-check2-circle"></i>إشعارات وتنبيهات ذكية</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- For Education Sector -->
+                <div class="col-lg-4">
+                    <div class="feature-card animate-on-scroll delay-3">
+                        <div class="feature-icon">
+                            <i class="bi bi-mortarboard"></i>
+                        </div>
+                        <h4>للقطاع التعليمي</h4>
+                        <ul class="feature-list">
+                            <li><i class="bi bi-check2-circle"></i>قاعدة بيانات وطنية دقيقة وشاملة</li>
+                            <li><i class="bi bi-check2-circle"></i>دعم اتخاذ القرار الأكاديمي</li>
+                            <li><i class="bi bi-check2-circle"></i>تحقيق أهداف رؤية 2030</li>
+                            <li><i class="bi bi-check2-circle"></i>تعزيز الشفافية والحوكمة</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         TECHNICAL SPECS — البنية التقنية
+         ============================================================ -->
+    <section id="tech-specs">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">البنية التقنية</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    بنية تحتية متقدمة مصممة لأعلى معايير الأداء والأمان
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- Cloud -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-1">
+                        <div class="tech-icon">
+                            <i class="bi bi-cloud-check"></i>
+                        </div>
+                        <h5>سحابة حكومية محلية</h5>
+                        <p>استضافة داخل المملكة العربية السعودية على بنية Cloud-Based وخدمات Microservices لضمان السيادة
+                            الرقمية.</p>
+                    </div>
+                </div>
+
+                <!-- APIs -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-2">
+                        <div class="tech-icon">
+                            <i class="bi bi-diagram-3"></i>
+                        </div>
+                        <h5>تكامل عالي</h5>
+                        <p>استخدام RESTful / GraphQL APIs لتحقيق التكامل السلس مع أنظمة الجامعات وفق المعايير الوطنية.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Security -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-3">
+                        <div class="tech-icon">
+                            <i class="bi bi-shield-lock"></i>
+                        </div>
+                        <h5>أمان سيبراني متقدم</h5>
+                        <p>تشفير كامل للبيانات وتوافق مع ضوابط الهيئة الوطنية للأمن السيبراني (NCA) ومعايير حماية
+                            البيانات.</p>
+                    </div>
+                </div>
+
+                <!-- AI -->
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-4">
+                        <div class="tech-icon">
+                            <i class="bi bi-cpu"></i>
+                        </div>
+                        <h5>ذكاء اصطناعي</h5>
+                        <p>خوارزميات مطابقة ذكية لاختيار المحكّمين ومنع تعارض المصالح تلقائياً.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         COMPLIANCE — الامتثال والتوافق التنظيمي
+         ============================================================ -->
+    <section id="compliance">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">الامتثال والتوافق التنظيمي</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    مبادرة مصممة وفق أعلى المعايير الوطنية والتنظيمية لضمان الثقة والموثوقية
+                </p>
+            </div>
+
+            <div class="row g-4">
+                <!-- DGA -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="challenge-card animate-on-scroll delay-1">
+                        <div class="challenge-icon">
+                            <i class="bi bi-bank2"></i>
+                        </div>
+                        <h4>هيئة الحكومة الرقمية (DGA)</h4>
+                        <p>التزام كامل بضوابط وسياسات هيئة الحكومة الرقمية، بما في ذلك معايير التحول الرقمي الحكومي،
+                            ومتطلبات تجربة المستخدم، ومعايير البيانات المفتوحة.</p>
+                    </div>
+                </div>
+
+                <!-- NCA -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="challenge-card animate-on-scroll delay-2">
+                        <div class="challenge-icon">
+                            <i class="bi bi-shield-fill-check"></i>
+                        </div>
+                        <h4>الأمن السيبراني (NCA)</h4>
+                        <p>توافق تام مع الضوابط الأساسية للأمن السيبراني (ECC) الصادرة عن الهيئة الوطنية للأمن
+                            السيبراني، وتطبيق أفضل الممارسات في حماية الأنظمة والبيانات.</p>
+                    </div>
+                </div>
+
+                <!-- Local Hosting -->
+                <div class="col-lg-4 col-md-6 mx-auto">
+                    <div class="challenge-card animate-on-scroll delay-3">
+                        <div class="challenge-icon">
+                            <i class="bi bi-geo-alt-fill"></i>
+                        </div>
+                        <h4>استضافة محلية سعودية</h4>
+                        <p>جميع البيانات والأنظمة مستضافة محلياً داخل المملكة العربية السعودية على بنية سحابية حكومية
+                            لضمان السيادة الرقمية وحماية البيانات الوطنية.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Additional compliance badges row -->
+            <div class="row g-4 mt-4">
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-1">
+                        <div class="tech-icon">
+                            <i class="bi bi-file-earmark-lock"></i>
+                        </div>
+                        <h5>حماية البيانات الشخصية</h5>
+                        <p>توافق مع نظام حماية البيانات الشخصية (PDPL) الصادر في المملكة.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-2">
+                        <div class="tech-icon">
+                            <i class="bi bi-arrow-left-right"></i>
+                        </div>
+                        <h5>التشغيل البيني</h5>
+                        <p>تطبيق معايير التشغيل البيني الحكومي لضمان التكامل مع الأنظمة الوطنية.</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="tech-card animate-on-scroll delay-3">
+                        <div class="tech-icon">
+                            <i class="bi bi-bullseye"></i>
+                        </div>
+                        <h5>رؤية 2030</h5>
+                        <p>مواءمة مع مستهدفات رؤية المملكة 2030 في التحول الرقمي وتطوير التعليم العالي.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         ROADMAP — خارطة الطريق
+         ============================================================ -->
+    <section id="roadmap">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title animate-on-scroll">خارطة الطريق</h2>
+                <p class="section-subtitle animate-on-scroll delay-1">
+                    مراحل تنفيذ المنصة الوطنية الموحدة
+                </p>
+            </div>
+
+            <div class="roadmap-wrapper animate-on-scroll delay-2">
+                <!-- Phase 1 -->
+                <div class="roadmap-step">
+                    <div class="roadmap-circle">١</div>
+                    <h5>الدراسة والتشريع</h5>
+                    <p>البحث والتحليل وإعداد الإطار التنظيمي والتشريعي</p>
+                </div>
+
+                <!-- Phase 2 -->
+                <div class="roadmap-step">
+                    <div class="roadmap-circle">٢</div>
+                    <h5>المرحلة التجريبية</h5>
+                    <p>إطلاق نسخة Pilot مع جامعات مختارة واختبار الأنظمة</p>
+                </div>
+
+                <!-- Phase 3 -->
+                <div class="roadmap-step">
+                    <div class="roadmap-circle">٣</div>
+                    <h5>الإطلاق والربط الشامل</h5>
+                    <p>ربط جميع الجامعات السعودية والإطلاق الرسمي للمنصة</p>
+                </div>
+
+                <!-- Phase 4 -->
+                <div class="roadmap-step">
+                    <div class="roadmap-circle">٤</div>
+                    <h5>التطوير والذكاء الاصطناعي</h5>
+                    <p>تطوير مستمر وإدماج تقنيات الذكاء الاصطناعي المتقدمة</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ============================================================
+         FOOTER — التذييل
+         ============================================================ -->
+    <footer id="footer">
+        <div class="container">
+            <div class="row g-4">
+                <!-- Logo & Desc -->
+                <div class="col-lg-4 col-md-6">
+                    <div class="footer-logo">
+                        <img src="assets/252.png" alt="شعار المبادرة">
+                    </div>
+                    <p style="font-size: 0.95rem; line-height: 1.9;">
+                        مبادرة المنصة الوطنية الموحدة للمحكّمين الأكاديميين والترقيات العلمية —
+                        تصوّر مبدئي يهدف لحوكمة وتطوير إجراءات التحكيم والترقيات الأكاديمية في الجامعات السعودية.
+                    </p>
+                </div>
+
+                <!-- Quick Links -->
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <h5>روابط سريعة</h5>
+                    <ul class="footer-links">
+                        <li><a href="#hero">الرئيسة</a></li>
+                        <li><a href="#problem">عن المبادرة</a></li>
+                        <li><a href="#features">الخدمات</a></li>
+                        <li><a href="#how-it-works">رحلة التحكيم</a></li>
+                        <li><a href="#roadmap">خارطة الطريق</a></li>
+                    </ul>
+                </div>
+
+                <!-- More Links -->
+                <div class="col-lg-2 col-md-6 footer-col">
+                    <h5>المزيد</h5>
+                    <ul class="footer-links">
+                        <li><a href="#">الأسئلة الشائعة</a></li>
+                        <li><a href="#">سياسة الخصوصية</a></li>
+                        <li><a href="#">شروط الاستخدام</a></li>
+                        <li><a href="#">الدعم الفني</a></li>
+                    </ul>
+                </div>
+
+                <!-- About Initiative -->
+                <div class="col-lg-4 col-md-6 footer-col">
+                    <h5>عن المبادرة</h5>
+                    <p style="font-size: 0.95rem; line-height: 1.9; color: rgba(255,255,255,0.7);">
+                        هذه المبادرة في مراحلها الأولى وتمثّل تصوّراً مبدئياً
+                        لمنصة وطنية موحدة تخدم منظومة التحكيم الأكاديمي
+                        والترقيات العلمية في الجامعات السعودية.
+                    </p>
+                </div>
+            </div>
+
+            <!-- Bottom bar -->
+            <div class="footer-bottom">
+                <p class="mb-0">
+                    جميع الحقوق محفوظة &copy; 2025 |
+                    مبادرة المنصة الوطنية الموحدة للمحكّمين الأكاديميين
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- ===== Bootstrap JS ===== -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+
+    <!-- ===== Custom JS ===== -->
+    <script src="js/script.js"></script>
+
+</body>
+
+</html>
